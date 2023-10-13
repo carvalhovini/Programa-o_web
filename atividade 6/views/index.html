@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Formulário</h1>
+    <form action="/dados" method="post">
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" required>
+      </div>
+      <div class="mb-3">
+        <label for="endereco" class="form-label">Endereço</label>
+        <input type="text" class="form-control" id="endereco" name="endereco" required>
+      </div>
+      <div class="mb-3">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="tel" class="form-control" id="telefone" name="telefone" required>
+      </div>
+      <div class="mb-3">
+        <label for="dataAgendamento" class="form-label">Data de Agendamento</label>
+        <input type="date" class="form-control" id="dataAgendamento" name="dataAgendamento" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
